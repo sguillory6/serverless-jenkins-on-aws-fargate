@@ -28,5 +28,7 @@ test/cache
 vars.sh
 tf.plan
 
+.terraform.lock.hcl
+
 # Make it possible to check-in the bootstrap state
-!/example/bootstrap/**/*.tfstate
+#!/example/bootstrap/**/*.tfstate
